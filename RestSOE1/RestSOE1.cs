@@ -83,7 +83,7 @@ namespace RestSOE1
             }
             else
             {
-
+                throw new ArgumentNullException();
             }
             if (props.GetProperty("LayerName") != null)
             {
